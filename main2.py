@@ -12,7 +12,7 @@ def correction(word, unidict, asciidict):
         return word
 
 lines = open('dictionary.txt').readlines()
-with open('input-test.csv','r+') as csvinput:
+with open('input.csv','r+') as csvinput:
     with open('output.csv','w') as csvoutput:
         reader = csvinput.readlines()
         
